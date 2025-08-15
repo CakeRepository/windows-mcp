@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+
+},
+"servers": {
+  "windows": {
+    "command": "python",
+    "args": [".\\windows_mcp_server.py"],
+    "env": {
+      "PYTHONUNBUFFERED": "1"
+      }
+    }
+}
+}
